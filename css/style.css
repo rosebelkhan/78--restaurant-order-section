@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&family=Fuzzy+Bubbles:wght@400;700&family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.alignleft{
+    float: left;
+    margin-right: 15px;
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter{
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 15px;
+    font-weight: 900;
+}
+body{
+
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* --section style sheet start-- */
+.section-padding{
+    padding: 60px 0;
+}
+
+
+.food-box-bg{background-image: url('../css/img/burger.jpg');}
+.food-box-bg-2{background-image: url('../css/img/pizza.jpg');}
+.food-box-bg-3{background-image: url('../css/img/set-meal.jpg');}
+
+
+.food-box-bg,
+.food-box-bg-2,
+.food-box-bg-3{
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 -15px;
+}
+
+.food-box-details {
+    border-top: 5px solid red;
+    margin-top: -80px;
+    background-color: #F84E47;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 15px #bbb;
+    transition: 0.8s;
+}
+.food-box-details:hover{
+    zoom: 1.02;
+}
+.food-bg-2{
+    background-color: #FD9303;
+}
+.food-bg-3{
+    background-color: #F84E47;
+}
+h3{
+    font-weight: 700;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.9;
+    font-weight: 400;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+span {
+    font-size: 24px;
+    color: #fff;
+}
+
+p.food-price {
+    font-size: 14px;
+}
+
+a.bordered-btn {
+    border: 2px solid #fff;
+    padding: 6px 24px;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+a.bordered-btn:hover{
+    opacity: 0.8;
+    color: #fff;
+}
+
+.food-box-details:hover{
+    background-color: #FD9303;
+}
+.food-bg-2:hover{
+    background-color: #F84E47;
+}
